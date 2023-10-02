@@ -1,7 +1,7 @@
 tm : Type
 ty : Type
 
-Lam : ty -> (tm -> tm) -> tm
+Lam : (tm -> tm) -> tm
 App : tm -> tm -> tm
 
 Fun : ty -> ty -> ty
